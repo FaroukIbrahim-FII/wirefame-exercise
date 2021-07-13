@@ -1,0 +1,71 @@
+header {
+    padding: 20pt;
+    margin: 0;
+    margin-bottom: 20pt;
+    background-color: rgb(138, 138, 138);
+}
+
+header div img{
+    float: left;
+    margin-left: 185pt;
+}
+
+header div nav {
+    clear: both;
+    display:inline-block;
+}
+
+header li {
+    padding: 5pt;
+    display:inline-block;
+    margin-left: 50pt;
+}
+
+header li:first-child{
+    margin-left: 70pt;
+}
+
+#top-section{
+width: 80%;
+margin: 10%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+#hero{
+    margin-left: 10%;
+    margin-bottom: 20pt;
+}
+
+.sub {
+    margin-left: 1.8%;
+    margin-bottom: 20pt;
+}
+.sub:first-child{
+    margin-left: 18%;
+}
+
+.imageCont{
+    float: left;
+    margin-left: 18%;
+    margin-right: 20pt;
+}
+
+div:last-child{
+    margin-right: 18%;
+}
+
+button:hover {
+    background-color: rgb(184, 201, 172);
+  }
+  
+footer{
+    clear: both;
+    background-color: rgb(138, 138, 138);
+    padding: 20pt;
+}
+
+p:last-child{
+
+    text-align: center;
+}
