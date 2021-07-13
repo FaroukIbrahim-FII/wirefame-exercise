@@ -1,17 +1,20 @@
 header {
-    padding: 20pt;
+    height: 70pt;
     margin: 0;
     margin-bottom: 20pt;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(31, 30, 30);
 }
 
 header div img{
     float: left;
     margin-left: 185pt;
+    position: relative;
+    top: 7pt;
 }
 
 header div nav {
     clear: both;
+    padding: 20pt;
     display:inline-block;
 }
 
@@ -20,6 +23,7 @@ header li {
     display:inline-block;
     margin-left: 50pt;
     font-weight: bold;
+    color: cornsilk;
 }
 
 header li:first-child{
@@ -50,6 +54,7 @@ margin-bottom: 0%;
     float: left;
     margin-left: 18%;
     margin-right: 20pt;
+    margin-bottom: 20pt;
 }
 
 div:last-child{
@@ -58,11 +63,19 @@ div:last-child{
 
 button:hover {
     background-color: rgb(184, 201, 172);
+    color: darkgreen;
   }
+
+button{
+    margin: 10pt;
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
   
 footer{
     clear: both;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(31, 30, 30);
     padding: 20pt;
 }
 
