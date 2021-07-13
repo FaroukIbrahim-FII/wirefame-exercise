@@ -19,6 +19,7 @@ header li {
     padding: 5pt;
     display:inline-block;
     margin-left: 50pt;
+    font-weight: bold;
 }
 
 header li:first-child{
